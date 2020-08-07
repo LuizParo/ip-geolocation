@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>me.github.lparo</groupId>
 	<artifactId>geolocation</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>geolocation</name>
 	<description>Service responsible for fetching the geo location given IP addresses</description>
 

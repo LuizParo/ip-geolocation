@@ -2,11 +2,14 @@ package me.github.lparo.geolocation.domain;
 
 import lombok.Value;
 
+import java.io.Serializable;
+
 /**
  * Entity that contains information about the country a given IP address is located.
  */
 @Value(staticConstructor = "of")
-public class Country {
+public class Country implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     /**
      * the name of the country.

@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import me.github.lparo.geolocation.database.IpCountryLocationRepository;
 import me.github.lparo.geolocation.database.impl.transformer.IpCountryLocationTransformer;
 import me.github.lparo.geolocation.domain.IpCountryLocation;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -18,7 +18,7 @@ import java.util.Optional;
  * from the underlying GeoIP2 {@link DatabaseReader}.
  */
 @Slf4j
-@Component
+@Repository("geoIP2IpCountryLocationRepository")
 @AllArgsConstructor
 public class GeoIP2IpCountryLocationRepository implements IpCountryLocationRepository {
     private final DatabaseReader databaseReader;

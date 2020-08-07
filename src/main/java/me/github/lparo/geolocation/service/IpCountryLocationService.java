@@ -1,8 +1,8 @@
 package me.github.lparo.geolocation.service;
 
-import me.github.lparo.geolocation.database.IpCountryLocationRepository;
 import me.github.lparo.geolocation.domain.IpCountryLocation;
 import me.github.lparo.geolocation.exception.LocationNotFoundException;
+import me.github.lparo.geolocation.repository.IpCountryLocationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

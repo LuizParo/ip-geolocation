@@ -1,6 +1,6 @@
 package me.github.lparo.geolocation.service;
 
-import me.github.lparo.geolocation.database.IpCityLocationRepository;
+import me.github.lparo.geolocation.repository.IpCityLocationRepository;
 import me.github.lparo.geolocation.domain.City;
 import me.github.lparo.geolocation.domain.IpCityLocation;
 import me.github.lparo.geolocation.domain.State;

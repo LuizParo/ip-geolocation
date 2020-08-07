@@ -1,7 +1,7 @@
 package me.github.lparo.geolocation.controller;
 
-import me.github.lparo.geolocation.database.IpCityLocationRepository;
-import me.github.lparo.geolocation.database.IpCountryLocationRepository;
+import me.github.lparo.geolocation.repository.IpCityLocationRepository;
+import me.github.lparo.geolocation.repository.IpCountryLocationRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

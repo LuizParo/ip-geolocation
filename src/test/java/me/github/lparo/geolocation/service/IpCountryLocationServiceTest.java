@@ -1,6 +1,6 @@
 package me.github.lparo.geolocation.service;
 
-import me.github.lparo.geolocation.database.IpCountryLocationRepository;
+import me.github.lparo.geolocation.repository.IpCountryLocationRepository;
 import me.github.lparo.geolocation.domain.Country;
 import me.github.lparo.geolocation.domain.IpCountryLocation;
 import me.github.lparo.geolocation.exception.LocationNotFoundException;

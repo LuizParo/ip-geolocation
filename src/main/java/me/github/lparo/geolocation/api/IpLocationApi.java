@@ -51,7 +51,7 @@ public class IpLocationApi {
         ipValidator.validateIp(ip);
 
         return IpCountryLocation.fromDomain(
-                ip == null || ip.trim().isEmpty()
+                ip == null || ip.isEmpty()
                     ? ipCountryLocationService.getCountryLocationForHostIp()
                     : ipCountryLocationService.getCountryLocationForIp(ip)
         );
